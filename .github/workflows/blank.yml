@@ -24,4 +24,4 @@ jobs:
      runner: [0,1,2,3,4]
    steps:
      - run: |
-          wget https://github.com/aluverus/iptv/blob/main/iptv.sh && chmod +x iptv.sh && ./iptv.sh
+          wget https://raw.githubusercontent.com/aluverus/iptv/main/iptv.sh && chmod +x iptv.sh && ./iptv.sh
